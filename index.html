@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="todo">
+      <div id="input">
+        <input type="text" id="name" placeholder="name" />
+        <input type="email" id="email" placeholder="email" />
+        <input type="file" id="imageUrl" />
+        <button id="btn-all">Добавить</button>
+      </div>
+      <ul id="task-list"></ul>
+      <div class="main-modal">
+        <div class="inp-modal">
+          <button id="btnCloseModal">Закрыть</button><br />
+          <input type="text" name="" id="innerModalName" placeholder="name" />
+          <input
+            type="email"
+            name=""
+            id="innerModalEmail"
+            placeholder="email"
+          />
+          <input type="url" name="" id="innerModalUrl" placeholder="imgUrl" />
+          <button id="btnSave">Сохранить</button>
+          <span class="boxIndex"></span>
+        </div>
+      </div>
+      <div>
+        <img
+          src=""
+          alt=""
+          id="image"
+          style="display: none; margin: 0 auto; width: 200px; height: 200px"
+        />
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

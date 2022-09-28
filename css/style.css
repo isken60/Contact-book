@@ -1,0 +1,19 @@
+#todo {
+  display: flex;
+  justify-content: center;
+}
+.main-modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.746);
+}
+.inp-modal {
+  width: 320px;
+  height: 150px;
+  background-color: white;
+  margin: 100px auto;
+}
